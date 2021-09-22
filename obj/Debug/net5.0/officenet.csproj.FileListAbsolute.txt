@@ -389,3 +389,4 @@ E:\NCC\officenet\bin\Debug\net5.0\package-lock.json
 E:\NCC\officenet\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs
 E:\NCC\officenet\obj\Debug\net5.0\Razor\Views\Employee\_TableData.cshtml.g.cs
 E:\NCC\officenet\obj\Debug\net5.0\Razor\Views\Employee\_AddForm.cshtml.g.cs
+E:\NCC\officenet\obj\Debug\net5.0\Razor\Views\Employee\contact.cshtml.g.cs

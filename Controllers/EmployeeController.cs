@@ -15,7 +15,7 @@ namespace officenet.Controllers
         {
             _db = db; 
         }
-        [HttpGet ("emoloyee")]
+        [HttpGet ("employee")]
         public IActionResult Index()
         {
             return View("~/Views/Employee/Index.cshtml");

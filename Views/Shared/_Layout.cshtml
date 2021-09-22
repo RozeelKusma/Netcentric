@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link href="~/fonts/font-awesome/4.7/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        .bottom {
+            background-image: linear-gradient( to top right, rgb(213, 255, 174), rgb(211, 211, 211), rgb(166, 178, 248) );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
-<body style="background-image:url(office.jpg)">
+<body style="background-image:url(office.jpg); background-size:cover;">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-image: linear-gradient( to top right, rgb(213, 255, 174), rgb(211, 211, 211), rgb(166, 178, 248) );">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">officenet</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                
+                
+                   
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
@@ -24,6 +30,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Index">Employees</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -37,8 +46,8 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - officenet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="bottom">
+            &copy; 2021 - Employee Management .NET - Rojil Kusma
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

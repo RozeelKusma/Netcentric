@@ -4,16 +4,17 @@
 
 @if (EmployeeList.Count > 0)
 {
+    
     foreach (var employee in EmployeeList)
     {
-        <tr class="employees-row" style="width: 20%; text-align:center;">
-            <td>@employee.FirstName</td>
-            <td>@employee.LastName</td>
-            <td>@employee.Position</td>
-            <td>@employee.Department</td>
-            <td>@employee.Salary</td>
-            <td>@employee.DateJoined</td>
-            <td>@employee.LastUpdated</td>
+        <tr class="employees-row" style="width: 20%; text-align: center; background-color: #f9ea8f; background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%); ">
+            <td style="color:royalblue">@employee.FirstName</td>
+            <td style="color: dodgerblue">@employee.LastName</td>
+            <td style="color:steelblue">@employee.Position</td>
+            <td style="color: #6699CC">@employee.Department</td>
+            <td style="color: cadetblue">@employee.Salary</td>
+            <td style="color: #6082B6 ">@employee.DateJoined</td>
+            <td style="color: #2c3968 ">@employee.LastUpdated</td>
             <td>
                 <button type="button" class="btn btn-sm btn-dark employee-edit" data-id="@employee.EmployeeId">
                     <i class="fa fa-edit"></i>
